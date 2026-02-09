@@ -14,7 +14,7 @@ export const fetchBitcoinData = async (interval: string = '1h'): Promise<Candle[
       params: {
         symbol: 'BTCUSDT',
         interval,
-        limit: 500,
+        limit: 1000,
       },
     });
 
